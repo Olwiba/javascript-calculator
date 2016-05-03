@@ -2,3 +2,31 @@ body {
   background-color: grey;
   text-align: center;
 }
+
+.calculator {
+  width: 50%;
+  background-color: rgb(30, 220, 220);
+  margin-top: 5em;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 1em;
+}
+
+.title h1 {
+  font-size: 3.6rem;
+}
+
+.output {
+  direction: rtl;
+  font-size: 1.5em;
+}
+
+.buttons button {
+  background-color: blue;
+  color: white;
+  font-size: 1.5em;
+}
+
+#equals {
+  float: right;
+}
