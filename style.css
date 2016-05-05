@@ -31,7 +31,9 @@ body {
 }
 
 
-.output input {
+.output-box {
+  float: right;
+  clear: both;
   font-size: 1.5em;
   color:  #0a0047;
 }
