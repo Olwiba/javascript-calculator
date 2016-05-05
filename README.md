@@ -19,3 +19,5 @@ Ollie and Troys Javascript calculator
 3. User-friendly stylish GUI
 
 4. Calculations can be typed into the output box
+
+5. Add in history of equation
