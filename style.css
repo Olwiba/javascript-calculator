@@ -11,8 +11,8 @@ body {
 }
 
 .calculator {
-  width: 30%;
-  background-color: rgb(30, 220, 220);
+  width: 300px; 
+  background-color: #9dd2ea;
   margin-top: 5em;
   margin-bottom: 5em;
   margin-left: auto;
@@ -22,6 +22,7 @@ body {
   border-width: 3px;
   border-color: #0a0047;
   border-radius: 15px;
+  box-shadow: 0px 6px #009de4;
 }
 
 .title h1 {
@@ -37,7 +38,8 @@ body {
 }
 
 .buttons button {
-  background-color: blue;
+  position: relative;
+  background-color: #009de4;
   color: white;
   font-size: 1.5em;
   height: 2.5em;
@@ -45,6 +47,13 @@ body {
   border-width: 3px;
   border-color: #0a0047;
   border-radius: 5px;
+  box-shadow: 0px 6px #008dcd;
+  transition: all 0.2s ease;
+}
+
+.buttons button:active {
+  box-shadow: 0px 0px #008dcd;
+  top: 6px;
 }
 
 #equals {
