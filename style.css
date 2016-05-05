@@ -49,6 +49,8 @@ body {
   border-radius: 5px;
   box-shadow: 0px 6px #008dcd;
   transition: all 0.2s ease;
+  padding: 0px;
+
 }
 
 .buttons button:active {
